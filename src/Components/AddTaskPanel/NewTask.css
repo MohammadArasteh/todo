@@ -1,0 +1,49 @@
+.new-task-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.new-task {
+    position: absolute;
+    background-color: #1687a7;
+    border-radius: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+.new-task > h3 {
+    font-family: monospace;
+    margin: 0;
+}
+.new-task-input {
+    background-color: white;
+    border-radius: 5px;
+    color: #0f1123;
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+    padding: 3px 5px;
+}
+.new-task-btns {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.new-task-btn {
+    font-size: 1.2rem;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 3px 8px;
+    transition: all .3s ease;
+}
+.new-task-cancel {
+    background-color: #ff3f34;
+}
+.new-task-add {
+    background-color: #11698e;
+    margin-left: 5px;
+}

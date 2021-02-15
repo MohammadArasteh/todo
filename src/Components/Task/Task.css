@@ -1,0 +1,69 @@
+.task-container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7efff5;
+    border-radius: 5px 2px 5px 2px;
+    padding: 3px 3px;
+    color: black;
+}
+.task-container > .task-done {
+    background-color: #ffdd59;
+}
+.task-container {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.task-delete-btn {
+    position: absolute;
+    right: -2px;
+    top: -5px;
+    width: 20px;
+    transition: all .3s ease;
+}
+.task-delete-btn:hover {
+    transform: scale(0.95);
+    transition: all .3s none;
+}
+.task-delete-btn:active {
+    transform: scale(0.8);
+}
+.task-priority {
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+    font-family: monospace;
+    border-radius: 5px;
+    width: 55px;
+    height: 14px;
+    text-align: center;
+    color: white;
+    padding: 2px 5px;
+    letter-spacing: 1px;
+}
+.task-title {
+    width: 70%;
+    font-family: monospace;
+    font-size: 1.3rem;
+    margin: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.LOWEST {
+    background-color: #cd84f1;
+    color: #1e272e;
+}
+.LOW {
+    background-color: #1e272e;
+}
+.NORMAL {
+    background-color: #30336b;
+}
+.HIGH {
+    background-color: #ffa801;
+    color: #1e272e;
+}
+.HIGHEST {
+    background-color: #FF0000;
+}
